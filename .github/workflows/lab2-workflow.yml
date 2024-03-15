@@ -1,0 +1,10 @@
+name: Exploring Workflow Dispatch Trigger
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Exploring Workflow Dispatch Trigger"
